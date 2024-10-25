@@ -12,6 +12,11 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
+
+app.get('/', async (req, res) => {
+   res.send("Welcome to Amazon Product API")
+});
+
 app.get('/products/:productId', async (req, res) => {
     const { productId } = req.params;
     const { api_key } = req.query;
