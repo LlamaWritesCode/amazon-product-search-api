@@ -12,7 +12,6 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-
 app.get('/', async (req, res) => {
    res.send("Welcome to Amazon Product API")
 });
