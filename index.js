@@ -25,7 +25,7 @@ app.get('/products/:productId', async (req, res) => {
 });
 
 app.get('/products/:productId', async (req, res) => {
-    const {productId} = req.params;
+    const { productId } = req.params;
     const { api_key } = req.query;
 
     try{ 
