@@ -45,8 +45,7 @@ This API allows you to access Amazon product details, reviews, offers, and searc
 ## 🔐 Environment Variables
 
    Create a `.env` file in the project root and add your ScraperAPI key:
-      ```plaintext
-         
+   
          API_KEY=your_scraperapi_key
          PORT=8000
          
