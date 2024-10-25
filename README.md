@@ -1,4 +1,4 @@
-# 🚀 Amazon Product API Scraper
+# 🚀 Amazon Product Search API 
 
 A simple Node.js API to fetch Amazon product details, reviews, offers, and search results using the [ScraperAPI](https://www.scraperapi.com/). Built with Express.js.
 
