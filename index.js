@@ -12,7 +12,6 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-//B0CSVFG4L7
 app.get('/products/:productId', async (req, res) => {
     const { productId } = req.params;
     const { api_key } = req.query;
